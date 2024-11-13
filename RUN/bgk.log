@@ -1,0 +1,68 @@
+ INFO: commit 1b5e09f57eac5014ed46ef12b15382a57b883035 
+ INFO: NVIDIA 
+ INFO: DOUBLE 
+ INFO: ORIGINAL 
+ INFO: LDC 
+ INFO: 
+ INFO: nvfortran -DPGI 
+ INFO: -O2 -Mnodepchk -Mcontiguous -mp=gpu -DOFFLOAD -Minfo=accel 
+ INFO: 
+ INFO: The test case is driven cavity (default)
+ INFO: using double precision (storage)
+ INFO: using the same precision for computation
+ INFO: mykind=               8 range  =          307
+ INFO: mykind=               8 huge   =   1.7976931348623157E+308
+ INFO: mykind=               8 epsilon=   2.2204460492503131E-016
+ INFO: mystorage=            8 range  =          307
+ INFO: mystorage=            8 huge   =   1.7976931348623157E+308
+ INFO: mystorage=            8 epsilon=   2.2204460492503131E-016
+ INFO: using RAW I/O
+       quad precision not supported
+ INFO: offload version (GPU)
+ INFO: using Move & collide (Original) version
+ INFO: reference velocities --->    0.000000000000000      
+   0.1000000000000000     
+ I/O: plane xy (vtk,binary) done
+ WARNING: volume forcing below 10e-7
+  
+ *********** size of the lattice **************
+ l (width x)  =         2048
+ m (width y)  =         2048
+ *********** fluid data **********************
+ viscosity    =   2.9120000000000000E-002
+ u0           =    0.000000000000000     
+ u00          =   0.1000000000000000     
+ omega        =    1.702533369654045     
+ tau          =   0.5873600000000000     
+ Reynolds     =    3516.483516483517     
+ forcing1     =    0.000000000000000     
+ forcing2     =   1.6666666666666666E-002
+ u_inflow     =    0.000000000000000     
+ LES: cteS    =   0.1000000014901161     
+ *********** run data ************************
+ itfin        =           10
+ itstart      =            0
+ ivtim        =        20000
+ isignal      =           10
+ itsave       =      3000000
+ icheck       =        50000
+ flag1        =            0
+ flag2        =            0
+ flag3        =            0
+ ipad         =            1
+ jpad         =            0
+ radius       =           16
+ ************** Further check ****************
+ zero         =    0.000000000000000         0.000000000000000     
+ uno          =    1.000000000000000         1.000000000000000     
+ tre          =    3.000000000000000         3.000000000000000     
+ rf           =    3.000000000000000         3.000000000000000     
+ qf           =    1.500000000000000         1.500000000000000     
+ p0           =   0.4444444444444444        0.4444444444444444     
+ p1           =   0.1111111111111111        0.1111111111111111     
+ p2           =   2.7777777777777776E-002   2.7777777777777776E-002
+ *********************************************
+  
+ Timestep       10
+       mean rho   0.100000E+01
+       mean vel   0.311213E-04   0.173785E-08   0.162193E-05

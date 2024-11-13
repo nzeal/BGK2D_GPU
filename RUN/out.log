@@ -1,0 +1,17 @@
+ ================================
+         Uniform LBE...          
+  Implementation: ORIGINAL
+  Serial
+  Test Case: Lid-Driven Cavity
+ ================================
+ INFO: commit 1b5e09f57eac5014ed46ef12b15382a57b883035 
+ INFO: GNU 
+ INFO: SINGLE 
+ INFO: ORIGINAL 
+ INFO: LDC 
+ INFO: 
+ INFO: gfortran 
+ INFO: -Ofast -fopenacc -DOPENACC 
+ INFO: 
+ INFO: The test case is driven cavity (default)
+ INFO: serial version (CPU)

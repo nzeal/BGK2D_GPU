@@ -1,0 +1,13 @@
+&parameters
+lx = 2048
+ly = 2048
+svisc=0.02912
+u0=0.1
+itfin=10
+ivtim=20000
+isignal=10
+itsave=3000000
+icheck=50000
+irestart=0
+init_v=0
+ipad=1        /

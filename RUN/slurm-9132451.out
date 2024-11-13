@@ -1,0 +1,17 @@
+At line 63 of file input.F90 (unit = 15)
+Fortran runtime error: Cannot open file 'bgk.input': No such file or directory
+
+Error termination. Backtrace:
+#0  0x147e30fb8171 in ???
+#1  0x147e30fb8d19 in ???
+#2  0x147e30fb9521 in ???
+#3  0x147e311bd328 in ???
+#4  0x147e311bd62c in ???
+#5  0x403c2b in ???
+#6  0x40179a in ???
+#7  0x4032bb in ???
+#8  0x400f4c in ???
+#9  0x147e2f211d84 in ???
+#10  0x400fad in ???
+#11  0xffffffffffffffff in ???
+That's all Folks!!!
